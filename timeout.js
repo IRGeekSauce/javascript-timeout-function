@@ -22,7 +22,7 @@ function CheckIdleTime() { //function to check for idle time
 	/*
 	class name should be changed to its appropriate name
         */
-	var element = document.getElementsByClassName("<your class name here"); //change to appropriate class
+	var element = document.getElementsByClassName("<your class name here>"); //change to appropriate class
 	if(element)
 	    element.innerHTML = (IDLE_TIMEOUT - idleSecondsCounter) + "";
 	
